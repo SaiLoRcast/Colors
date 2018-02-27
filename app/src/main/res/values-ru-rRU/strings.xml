@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Цвета</string>
+    <string name="action_settings">Настройки</string>
+    <string name="color_saved">Цвет сохранён!</string>
+    <string name="abc_secondary_text_material_light">У вас нет сохранённых цветов, нажмите кновку камеры чтобы их получить</string>
+    <string name="color_clip_color_label_hex">Color item hexadecimal value</string>
+    <string name="color_clip_success_copy_message">Copied to clipboard</string>
+    <string name="warning">Warning</string>
+    <string name="delete_color">Удалить цвет?</string>
+    <string name="color_clip_color_label_rgb">Color item GRB value</string>
+    <string name="color_clip_color_label_hsv">Color item HSV value</string>
+    <string name="menu_color_detail_action_edit">Сохранить</string>
+    <string name="menu_color_detail_action_delete">Удалить</string>
+    <string name="activity_color_detail_edit_text_dialog_fragment_title">Edit the name of the color</string>
+    <string name="activity_color_detail_edit_text_dialog_fragment_positive_button">Сохранить</string>
+</resources>

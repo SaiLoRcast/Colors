@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ColorDetailActivity">
+
+    <com.polygalov.colors.views.ColorDotView
+        android:id="@+id/activity_color_detail_preview_translating"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/point" />
+
+    <FrameLayout
+        android:id="@+id/activity_color_detail_preview_container"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <View
+            android:id="@+id/activity_chooser_view_scaling"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/preview_point"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <com.polygalov.colors.views.ColorItemDetailView
+            android:id="@+id/activity_color_detail_color_item_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/activity_color_detail_list_view_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/linear_gradient_bottom"
+        android:visibility="invisible"
+        tools:visibility="visible"/>
+
+</merge>

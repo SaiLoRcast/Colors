@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="row_color_item_preview_size_shadow_size">3dp</dimen>
+</resources>
